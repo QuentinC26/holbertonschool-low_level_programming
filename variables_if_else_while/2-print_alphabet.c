@@ -8,6 +8,9 @@
 
 	int main(void)
 	{
-	putchar(a dÃterminer);
+	char q;
+	while(a => z)
+	putchar("");
+	q++;
 	return (0);
 	}
