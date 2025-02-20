@@ -8,9 +8,10 @@
 
 	int main(void)
 	{
-	char q;
-	while(a => z)
-	putchar("");
-	q++;
+	char v;
+
+	for (v = 'a'; v <= 'z'; v++)
+	putchar(v);
+	putchar('\n');
 	return (0);
 	}
