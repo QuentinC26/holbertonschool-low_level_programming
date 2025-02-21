@@ -8,13 +8,13 @@
 
 int main(void)
 	{
-	char v;
+	char letter;
 
-	for (v = 'a'; v <= 'z'; v++)
-if ?
-tr ?
-while ?
-	putchar(v);
-	putchar('\n');
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+		putchar (letter);
+	}
+	putchar ('\n');
 	return (0);
 	}
