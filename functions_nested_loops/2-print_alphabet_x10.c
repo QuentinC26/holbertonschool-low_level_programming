@@ -14,8 +14,6 @@ while (i < 10)
 {
 std::count << sentence << "\n";
 
-for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
-_putchar (i);
 i++;
 }
 _putchar ('\n');
