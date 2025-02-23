@@ -7,14 +7,14 @@
 
 void print_alphabet_x10(void)
 {
-char tenlines;
-int alphabet;
+char a;
+int t;
 
-for (tenlines = 0; tenlines < 10; tenlines++)
+for (t = 0; t < 10; t++)
 {
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (a = 'a'; a <= 'z'; a++)
 {
-_putchar (tenlines);
+_putchar (t);
 }
 _putchar ('\n');
 }
