@@ -17,7 +17,7 @@ _putchar (tenlinesofalphabet);
 
 int tenlinesofalphabet{10};
 
-for (tenlinsofalphabet < 10; tenlinesofalphabet++)
+for (tenlinesofalphabet < 10; tenlinesofalphabet++)
 {
 _putchar (tenlinesofalphabet);
 _putchar ('\n');
