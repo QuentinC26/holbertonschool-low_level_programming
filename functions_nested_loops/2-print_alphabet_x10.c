@@ -8,13 +8,12 @@
 
 void print_alphabet_x10(void)
 {
-int i{0};
+char tenlines;
 
-while (i < 10)
+while (tenlines < 10)
 {
-std::count << sentence << "\n";
-
-i++;
+for (tenlines = 'a'; tenlines <= 'z'; tenlines++)
+_putchar (tenlines);
 }
 _putchar ('\n');
 }
