@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_alphabet - Entry Point
+*print_alphabet - print alphabet 10 times
 *Return: 0 (Success)
 */
 
