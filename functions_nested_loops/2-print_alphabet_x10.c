@@ -8,12 +8,13 @@
 
 void print(void)
 {
-char ten_alphabet;
+char repeat = 0, ten_alphabet;
 
-for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
+while (repeat < 10)
 {
+ten_alphabet = 'a'; ten_alphabet <= 'z';
+ten_alphabet++;
 _putchar (ten_alphabet);
 }
-std: (ten_alphabet < 10; ten_alphabat++) 
 _putchar ('\n');
 }
