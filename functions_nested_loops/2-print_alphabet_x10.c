@@ -14,6 +14,7 @@ while (repeat < 10)
 {
 for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
 _putchar (ten_alphabet);
+ten_alphabet++;
 }
 _putchar ('\n');
 }
