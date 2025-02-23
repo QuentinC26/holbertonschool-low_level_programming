@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-void print_alphabet(void);
+int _putchar(char c);  /** Function for _putchar */
+void print_alphabet(void);  /** Declaration of function print_alphabet */
 
-#endif /* SAMPLE_MAIN_H */
+#endif /* MAIN_H */
