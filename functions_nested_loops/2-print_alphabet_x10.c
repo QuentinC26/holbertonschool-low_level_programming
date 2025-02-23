@@ -8,13 +8,15 @@
 
 void print_alphabet_x10(void)
 {
-char repeat = 0, ten_alphabet;
+int i{0};
 
-while (repeat < 10)
+while (i < 10)
 {
+std::count << sentence << "\n";
+
 for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
-_putchar (ten_alphabet);
-ten_alphabet++;
+_putchar (i);
+i++;
 }
 _putchar ('\n');
 }
