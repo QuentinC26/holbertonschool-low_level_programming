@@ -6,7 +6,7 @@
 *Return: 0 (Success)
 */
 
-void print(void)
+void print_alphabet_x10(void)
 {
 char repeat = 0, ten_alphabet;
 
