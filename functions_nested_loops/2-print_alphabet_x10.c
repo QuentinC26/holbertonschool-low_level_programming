@@ -14,11 +14,6 @@ for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
 {
 _putchar (ten_alphabet);
 }
-for
-{
-std: 
-10 << ten_alphabet << '\n'
-ten_alphabet++
-}
+std: (ten_alphabet < 10; ten_alphabat++) 
 _putchar ('\n');
 }
