@@ -14,11 +14,11 @@ for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
 {
 _putchar (ten_alphabet);
 }
-
-int ten_alphabet{10};
-
-for (ten_alphabet < 10; ten_alphabet++)
+for
 {
-_putchar (ten_alphabet);
+std: 
+10 << ten_alphabet << '\n'
+ten_alphabet++
+}
 _putchar ('\n');
 }
