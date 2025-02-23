@@ -6,12 +6,13 @@
 *Return: 0 (Success)
 */
 
-int main(void)
+void print_alphabet(void)
 {
-char print_alphabet;
+char alphabet;
 
-for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
-_putchar (print_alphabet);
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+	_putchar (alphabet);
+}
 _putchar ('\n');
-return (0);
 }
