@@ -12,7 +12,7 @@ char repeat = 0, ten_alphabet;
 
 while (repeat < 10)
 {
-for (ten_alphabet = 'a'; ten_alphabet <= 'z') ten_alphabet++;
+for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++;)
 _putchar (ten_alphabet);
 }
 _putchar ('\n');
