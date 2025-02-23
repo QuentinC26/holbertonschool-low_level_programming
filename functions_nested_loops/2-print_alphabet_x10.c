@@ -9,11 +9,14 @@
 void print_alphabet_x10(void)
 {
 char tenlines;
+int alphabet;
 
-while (tenlines < 10)
+for (alphabet = 0; alphabet < 10; alphabet++)
 {
 for (tenlines = 'a'; tenlines <= 'z'; tenlines++)
+{
 _putchar (tenlines);
 }
 _putchar ('\n');
+}
 }
