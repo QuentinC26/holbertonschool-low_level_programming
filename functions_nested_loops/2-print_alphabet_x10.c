@@ -2,7 +2,6 @@
 
 /**
 *print_alphabet - Entry Point
-*
 *Return: 0 (Success)
 */
 
@@ -11,9 +10,9 @@ void print_alphabet_x10(void)
 char tenlines;
 int alphabet;
 
-for (alphabet = 0; alphabet < 10; alphabet++)
+for (tenlines = 0; tenlines < 10; tenlines++)
 {
-for (tenlines = 'a'; tenlines <= 'z'; tenlines++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 _putchar (tenlines);
 }
