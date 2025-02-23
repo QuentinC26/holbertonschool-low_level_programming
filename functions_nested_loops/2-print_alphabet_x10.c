@@ -14,7 +14,7 @@ for (t = 0; t < 10; t++)
 {
 for (a = 'a'; a <= 'z'; a++)
 {
-_putchar (t);
+_putchar (a);
 }
 _putchar ('\n');
 }
