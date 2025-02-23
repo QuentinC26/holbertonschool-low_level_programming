@@ -7,10 +7,16 @@
  *
  */
 
-void print(void)
+int _islower(int c)
 
-char = lowercase;
-
-if (lowercase = 'a'; lowercase <= 'z' return 0; lowercase++)
-if (lowercase = 'c'; loercase = return 1; lowercase++)
-_putchar (lowercase);
+int c;
+{
+{
+if (c = 'a'; c <= 'z'; c++)
+return (1);
+}
+{
+else
+return (0);
+}  
+}
