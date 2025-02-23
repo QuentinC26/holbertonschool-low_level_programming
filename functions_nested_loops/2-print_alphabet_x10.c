@@ -8,17 +8,17 @@
 
 void print(void)
 {
-char tenlinesofalphabet;
+char ten_alphabet;
 
-for (tenlinesofalphabet = 'a'; tenlinesofalphabet <= 'z'; tenlinesofalphabet++)
+for (ten_alphabet = 'a'; ten_alphabet <= 'z'; ten_alphabet++)
 {
-_putchar (tenlinesofalphabet);
+_putchar (ten_alphabet);
 }
 
-int tenlinesofalphabet{10};
+int ten_alphabet{10};
 
-for (tenlinesofalphabet < 10; tenlinesofalphabet++)
+for (ten_alphabet < 10; ten_alphabet++)
 {
-_putchar (tenlinesofalphabet);
+_putchar (ten_alphabet);
 _putchar ('\n');
 }
