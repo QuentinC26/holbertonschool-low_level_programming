@@ -6,17 +6,12 @@
  * Return: 0 (Success)
  */
 
-int print_last_digit(int)
+int print_last_digit(int digit)
 
 {
-	int digit;
 	int number;
 
 	number = digit % 10;
-	if (number < digit)
-	{
-		_putchar(number);
-		return (number);
-	}
-	return (0);
+	_putchar(number);
+	return (number);
 }
