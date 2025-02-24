@@ -7,5 +7,6 @@ void print_alphabet_x10(void);	/**Declaration of funtion prin_alphabet_x10*/
 int _islower(int c); /**Declaration of function for check a letter lowercase*/
 int _isalpha(int c); /**Declaration of function for alphabetic letters*/
 int print_sign(int n); /**Declaration of function for number sign*/
+int _abs(int); /**Declaration of function computes the absolute value*/
 
 #endif /* MAIN_H */
