@@ -2,7 +2,7 @@
 
 /**
  * int _islower(int c) - int _islower(int c) is for check a lowercase letters
-  * _islower - Checks if a character is lowercase.
+  * _islower - Description of _islower are so bug because nothing is validate on betty.
  * @c: - 'c' is a variable
  *
  * Return: 0 (Sucess)
