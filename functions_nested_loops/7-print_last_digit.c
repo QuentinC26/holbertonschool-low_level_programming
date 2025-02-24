@@ -11,10 +11,9 @@ int print_last_digit(int);
 {
 	int digit;
 	int number;
+	number = digit % 10
 
-	if (number = digit % 10)
-		{
-		return (number);
-		}
-	return (0);
+	putchar(number);
+	return (number);
+		
 }
