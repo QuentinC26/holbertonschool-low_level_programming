@@ -12,9 +12,9 @@ int print_last_digit(int);
 	int digit;
 	int number;
 
-	if (number = digit%10)
+	if (number = digit % 10)
 		{
-		return number);
-		}	
+		return (number);
+		}
 	return (0);
 }
