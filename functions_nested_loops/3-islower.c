@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * int _islower(int c) - int _islower(int c) is for check a lowercase letters
-  * _islower(int c) - Check the lowercase letters.
- * @c: - 'c' is a variable
+ * _islower - Check the lowercase letters.
+ * @c: 'c' is a variable
  *
  * Return: 0 (Sucess)
  *
