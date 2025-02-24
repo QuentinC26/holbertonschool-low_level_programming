@@ -12,9 +12,15 @@ int abs(int)
 int number;
 
 {
-if (number >= 0; abs;)
+	if(number < 0)
+
 {
-else (number <= 0; number =!; abs;)
+	number = number * (-1);
+	printf("%d", number);
 }
-return (0);
+	else
+      	{
+	printf ("%d", number)
+	}	
+	return (0);
 }
