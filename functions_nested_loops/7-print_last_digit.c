@@ -14,7 +14,7 @@ int print_last_digit(int)
 
 	number = digit % 10;
 	if (number < digit)
-	{	
+	{
 		_putchar(number);
 		return (number);
 	}
