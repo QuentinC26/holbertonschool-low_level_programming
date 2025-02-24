@@ -2,7 +2,7 @@
 
 /**
  * _abs - Declaration of function for compute the absolute value
- * number - Variable for computes the absolute value
+ * @number - Variable for computes the absolute value
  * Return: 0 (Success)
  *
  */
