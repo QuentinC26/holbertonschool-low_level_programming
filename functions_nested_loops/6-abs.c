@@ -7,7 +7,7 @@
  *
  */
 
-int abs(int)
+int _abs(int)
 
 int number;
 
@@ -20,6 +20,6 @@ int number;
 	else
 {
 	number = number * (1);
-}	
+}
 	return (number);
 }
