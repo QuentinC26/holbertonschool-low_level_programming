@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * int _abs - Declaration of function for compute the absolute value
- *
+ * abs - Declaration of function for compute the absolute value
+ * int - Declaration of integer in the function
  * Return: 0 (Success)
  *
  */
