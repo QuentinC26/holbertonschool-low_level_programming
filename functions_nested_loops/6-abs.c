@@ -16,11 +16,10 @@ int number;
 
 {
 	number = number * (-1);
-	printf("%d", number);
 }
 	else
-	{
-	printf("%d", number)
-	}
-	return (0);
+{
+	number = number * (1);
+}	
+	return (number);
 }
