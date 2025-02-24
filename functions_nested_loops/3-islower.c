@@ -2,8 +2,8 @@
 
 /**
  * int _islower(int c) - int _islower(int c) is for check a lowercase letters
- * _islower - _islower is a main function of this code
- * @c! - 'c' is a variable
+ * _islower - islower is a main function of this code
+ * @c: - 'c' is a variable
  *
  * Return: 0 (Sucess)
  *
