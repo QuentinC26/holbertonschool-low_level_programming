@@ -13,8 +13,10 @@ int print_last_digit(int)
 	int number;
 
 	number = digit % 10;
-		{
+	if (number < digit)
+	{	
 		_putchar(number);
-		}
-	return (number);
+		return (number);
+	}
+	return (0);
 }
