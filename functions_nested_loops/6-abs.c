@@ -12,15 +12,15 @@ int abs(int)
 int number;
 
 {
-	if(number < 0)
+	if (number < 0)
 
 {
 	number = number * (-1);
 	printf("%d", number);
 }
 	else
-      	{
-	printf ("%d", number)
-	}	
+	{
+	printf("%d", number)
+	}
 	return (0);
 }
