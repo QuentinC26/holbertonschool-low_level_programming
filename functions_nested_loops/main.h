@@ -5,5 +5,6 @@ int _putchar(char c);  /** Function for _putchar */
 void print_alphabet(void);  /** Declaration of function print_alphabet */
 void print_alphabet_x10(void);	/**Declaration of funtion prin_alphabet_x10*/
 int _islower(int c); /**Declaration of function for check a letter lowercase*/
+int _isalpha(int c); /**Declaration of foncton for alphabetic letters*/
 
 #endif /* MAIN_H */
