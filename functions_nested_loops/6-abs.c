@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * abs - Declaration of function for compute the absolute value
  * int - Declaration of integer in the function
+ * _abs - Declaration of function for compute the absolute value
  * Return: 0 (Success)
  *
  */
 
 int _abs(int)
 
+{
+
 int number;
 
-{
 	if (number < 0)
 
 {
