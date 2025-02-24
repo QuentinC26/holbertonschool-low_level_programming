@@ -2,7 +2,7 @@
 
 /**
  * _abs - Declaration of function for compute the absolute value
- * int - Declaration of integer in the function
+ * number - Variable for computes the absolute value
  * Return: 0 (Success)
  *
  */
@@ -15,8 +15,8 @@ int _abs(int number)
 	number = number * (-1);
 	}
 	else
-	{	
+{
 	number = number * (1);
-	}	
+}
 	return (number);
 }
