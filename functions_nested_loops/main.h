@@ -8,6 +8,7 @@ int _islower(int c); /**Declaration of function for check a letter lowercase*/
 int _isalpha(int c); /**Declaration of function for alphabetic letters*/
 int print_sign(int n); /**Declaration of function for number sign*/
 int _abs(int); /**Declaration of function computes the absolute value*/
-int print_last_digit(int); /** Function for prints the last digit of number*/
+int print_last_digit(int number); /** Function for prints the last digit of number*/
+void jack_bauer(void); /** Function for prints every minutes of day*/
 
 #endif /* MAIN_H */
