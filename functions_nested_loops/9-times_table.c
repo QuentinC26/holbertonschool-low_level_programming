@@ -14,17 +14,17 @@ void times_table(void)
 	for (table = 0; table <= 9; table++)
 	{
 		for (vertical = 0; vertical <= 9; vertical++)
-			{
-				_putchar(table * vertical + '0');
-				_putchar(table * vertical + '1');
-				_putchar(table * vertical + '2');
-				_putchar(table * vertical + '3');
-				_putchar(table * vertical + '4');
-				_putchar(table * vertical + '5');
-				_putchar(table * vertical + '6');
-				_putchar(table * vertical + '7');
-				_putchar(table * vertical + '8');
-				_putchar(table * vertical + '9');
-			}
+		{
+			_putchar(table * vertical + '0');
+			_putchar(table * vertical + '1');
+			_putchar(table * vertical + '2');
+			_putchar(table * vertical + '3');
+			_putchar(table * vertical + '4');
+			_putchar(table * vertical + '5');
+			_putchar(table * vertical + '6');
+			_putchar(table * vertical + '7');
+			_putchar(table * vertical + '8');
+			_putchar(table * vertical + '9');
+		}
 	}
 }
