@@ -9,23 +9,22 @@ void times_table(void)
 
 {
 	int table;
-	int column;
+	int vertical;
 
-	for (table = 0; table <= 9, table ++)
+	for (table = 0; table <= 9, table++)
 	{
-		for (column = 0; column <= 9, column ++)
-		
-			{	
-				_putchar(table * column + '0');
-				_putchar(table * column + '1');
-				_putchar(table * column + '2');
-				_putchar(table * column + '3');
-				_putchar(table * column + '4');
-				_putchar(table * column + '5');
-				_putchar(table * column + '6');
-				_putchar(table * column + '7');
-				_putchar(table * column + '8');
-				_putchar(table * column + '9');
+		for (vertical = 0; vertical <= 9, vertical++)
+			{
+				_putchar(table * vertical + '0');
+				_putchar(table * vertical + '1');
+				_putchar(table * vertical + '2');
+				_putchar(table * vertical + '3');
+				_putchar(table * vertical + '4');
+				_putchar(table * vertical + '5');
+				_putchar(table * vertical + '6');
+				_putchar(table * vertical + '7');
+				_putchar(table * vertical + '8');
+				_putchar(table * vertical + '9');
 			}
 	}
 }
