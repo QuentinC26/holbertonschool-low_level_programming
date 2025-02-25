@@ -11,6 +11,7 @@ int _abs(int); /**Declaration of function computes the absolute value*/
 int print_last_digit(int number); /** Function for prints the last digit of number*/
 void jack_bauer(void); /** Function for prints every minutes of day*/
 void times_table(void); /** Function for prints a multiplication table*/
-int add(int, int); /** Function for add two integer*/
+int add(int a, int b); /** Function for add two integer*/
+void print_to_98(int n); /** Function for print all natural numbers*/
 
 #endif /* MAIN_H */
