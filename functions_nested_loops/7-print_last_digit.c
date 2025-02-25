@@ -12,6 +12,10 @@ int print_last_digit(int digit)
 	int number;
 
 	number = digit % 10;
+	if (number < ?)
+	{
 	_putchar(number);
 	return (number);
+	}
+	return (0);
 }
