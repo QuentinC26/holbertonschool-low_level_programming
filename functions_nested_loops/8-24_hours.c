@@ -9,5 +9,12 @@
 void jack_bauer(void)
 
 {
-	???
+	int min;
+
+	for (min = 0; min < 2; min++)
+	for (min = 0; min < 3; min++)
+	-putchar(':');
+	for (min = 0; min < 5; min++)
+	for (min = 0; min < 9, min++)
+	_putchar( min + '0');
 }
