@@ -10,5 +10,6 @@ int print_sign(int n); /**Declaration of function for number sign*/
 int _abs(int); /**Declaration of function computes the absolute value*/
 int print_last_digit(int number); /** Function for prints the last digit of number*/
 void jack_bauer(void); /** Function for prints every minutes of day*/
+void times_table(void); /** Function for prints a multiplication table*/
 
 #endif /* MAIN_H */
