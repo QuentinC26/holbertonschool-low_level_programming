@@ -8,33 +8,34 @@
 void times_table(void)
 
 {
-	int table;
+	int horizontal;
 	int vertical;
+	int carre;
 
-	for (table = 0; table <= 9; table++)
+	for (horizontal = 0; horizontal <= 9; horizontal++)
 	{
 		for (vertical = 0; vertical <= 9; vertical++)
 		{
-			_putchar(table * vertical + '0');
-			_putchar('\n');
-			_putchar(table * vertical + '1');
-			_putchar('\n');
-			_putchar(table * vertical + '2');
-			_putchar('\n');
-			_putchar(table * vertical + '3');
-			_putchar('\n');
-			_putchar(table * vertical + '4');
-			_putchar('\n');
-			_putchar(table * vertical + '5');
-			_putchar('\n');
-			_putchar(table * vertical + '6');
-			_putchar('\n');
-			_putchar(table * vertical + '7');
-			_putchar('\n');
-			_putchar(table * vertical + '8');
-			_putchar('\n');
-			_putchar(table * vertical + '9');
-			_putchar('\n');
+			carre = horizontal * vertical;
+			if (vertical == 0)
+			{
+				_putchar('0');
+			}
+			else if (carre <= 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(carre + '0');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(carre / 10 + '0');
+				_putchar(carre % 10 + '0');
+			}
 		}
+		_putchar('\n');
 	}
 }
