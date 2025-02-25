@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Declaration of last digit of number
- * @digit: Variables for print the last digit of number
+ * @int: Variables for print the last digit of number
  * Return: 0 (Success)
  */
 
