@@ -11,9 +11,9 @@ void times_table(void)
 	int table;
 	int vertical;
 
-	for (table = 0; table <= 9, table++)
+	for (table = 0; table <= 9; table++)
 	{
-		for (vertical = 0; vertical <= 9, vertical++)
+		for (vertical = 0; vertical <= 9; vertical++)
 			{
 				_putchar(table * vertical + '0');
 				_putchar(table * vertical + '1');
