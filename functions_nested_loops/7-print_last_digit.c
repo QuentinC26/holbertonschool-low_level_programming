@@ -2,25 +2,26 @@
 
 /**
  * print_last_digit - Declaration of last digit of number
- * @int: Variables for print the last digit of number
+ * @number: Variables for print the last digit of number
  * Return: 0 (Success)
  */
 
-int print_last_digit(int)
+int print_last_digit(int number)
 
 {
-	int digit;
-	int number;
+	int last;
 
-	number = digit % 10;
-	
-	if (number < 0)
+	last = number % 10;
+
+	if (last < 0)
 	{
-		number = number * (-1);
-		return (number);
+		last = last * (-1);
+		_putchar(last + '0');
+		return (last);
 	}
 	else
 	{
-		return (number);
+		_putchar(last + '0');
+		return (last);
 	}
 }
