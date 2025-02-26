@@ -10,14 +10,17 @@
 void print_to_98(int n)
 
 {
-	for (n = 0; n <= 98; n++)
-	{
+	int number;
+
 	if (n <= 98)
-		{
+	{
+		for (number = n; number < 98; number++)
+		printf("%d, ", number);
 	}
-			printf("%d", n);
-			_putchar(',');
-			_putchar(' ');
-		}
-	_putchar('\n');
+	else
+	{
+		for (number = n; number > 98; number--)
+		printf("%d, ", number);
+	}
+	printf("98\n");
 }
