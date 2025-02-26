@@ -10,5 +10,9 @@ int _strlen(char *s)
 
 {
 
+	char *s [*s] = "My first strlen!";
+	int length;
 
+	for (*s = lenght ; *s < lenght ; *s++)
+	return (*s);
 }
