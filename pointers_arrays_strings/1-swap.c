@@ -2,7 +2,8 @@
 
 /**
  * swap_int - Function for swap the value of two integers
- * @,: Description a mettre
+ * @a: First integer number
+ * @b: Second integer number
  * Return: 1 (Error)
  */
 
@@ -10,12 +11,9 @@ void swap_int(int *a, int *b)
 
 {
 
-	replacement;
-	
-	remplacement = a;
-	a = b;
-	b = remplacement;
+	int replacement;
 
-	_putchar(a + '0');
-	_putchar(b + '0');
+	replacement = *a;
+	*a = *b;
+	*b = replacement;
 }
