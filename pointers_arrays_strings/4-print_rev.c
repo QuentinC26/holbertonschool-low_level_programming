@@ -2,7 +2,7 @@
 
 /**
  * print_rev - Function for prints the reverse strings
- * @?: ??
+ * @s: Variable with pointer
  * Return: 1 (error)
  */
 
@@ -14,7 +14,7 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-	
+
 	for (; i >= 0; --i)
 	{
 		_putchar(s[i]);
