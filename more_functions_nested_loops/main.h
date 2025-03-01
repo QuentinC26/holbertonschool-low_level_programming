@@ -6,5 +6,6 @@ int _isupper(int c); /**Function for check upercase*/
 int _isdigit(int c); /**Function for check digit*/
 int mul(int a, int b); /**Function for  multiplies two integers*/
 void print_numbers(void); /**Function for prints the number of 0 at 9*/
+void print_most_numbers(void); /**Function for prints the number withou 2 and 4*/
 
 #endif /* MAIN_H */
