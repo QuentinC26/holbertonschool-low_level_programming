@@ -8,27 +8,18 @@
 
 void print_diagonal(int n)
 {
-	int horizontal;
-	int vertical;
-	int cube;
+	int c;
 
-	for (horizontal = 0; horizontal <= n; horizontal++)
+	if (n <= 0)
 	{
-		for (vertical = 0; vertical <= n; vertical++)
+		_putchar('\n');
+	}
+	else
+	{
+		for (c = 0; c < n; c++)
 		{
-			cube = horizontal * vertical;
-			if (n <= 0)
-			{
-				_putchar('\n');
-			}
-			else
-			{
-				for (; cube < n; cube++)
-				{
-					_putchar('\\');
-				}
-			_putchar('\n');
-			}
+			_putchar('\\');
 		}
+	_putchar('\n');
 	}
 }
