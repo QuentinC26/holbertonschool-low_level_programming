@@ -23,7 +23,7 @@ void print_diagonal(int n)
 			}
 			else
 			{
-				for (cube = horizontal * vertical; cube < n; cube++)
+				for (; cube < n; cube++)
 				{
 					_putchar('\\');
 				}
