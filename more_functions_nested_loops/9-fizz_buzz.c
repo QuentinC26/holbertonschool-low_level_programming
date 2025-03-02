@@ -14,7 +14,7 @@ int main(void)
 
 	for (base = 0; base <= 100; base++)
 	{
-		if (base == % 3)
+		if (base % 3)
 		{
 			putchar('F');
 			putchar('i');
@@ -22,7 +22,7 @@ int main(void)
 			putchar('z');
 			putchar(' ');
 		}
-		else if (base == % 5)
+		else if (base % 5)
 		{
 			putchar('B');
 			putchar('u');
@@ -30,7 +30,7 @@ int main(void)
 			putchar('z');
 			putchar(' ');
 		}
-		else if (base == % 3 && base == % 5)
+		else if (base % 3 && base % 5)
 		{
 			putchar('F');
 			putchar('i');
