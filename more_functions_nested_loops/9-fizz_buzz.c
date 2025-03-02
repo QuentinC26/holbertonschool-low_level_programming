@@ -24,28 +24,11 @@ int main(void)
 		}
 		else if (base % 5 == 0)
 		{
-			putchar('B');
-			putchar('u');
-			putchar('z');
-			putchar('z');
-			putchar(' ');
+			printf("Buzz ");
 		}
 		if (base % 3 == 0 && base % 5 == 0)
 		{
-			putchar('F');
-			putchar('i');
-			putchar('z');
-			putchar('z');
-			putchar(' ');
-			putchar('F');
-                        putchar('i');
-                        putchar('z');
-                        putchar('z');
-			putchar('B');
-			putchar('u');
-			putchar('z');
-			putchar('z');
-			putchar(' ');
+			printf("Fizz FizzBuzz ");
 		}
 		else
 		{
