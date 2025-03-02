@@ -28,7 +28,7 @@ int main(void)
 		}
 		if (base % 3 == 0 && base % 5 == 0)
 		{
-			printf("Fizz FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else
 		{
