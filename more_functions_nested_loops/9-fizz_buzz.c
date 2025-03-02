@@ -14,21 +14,17 @@ int main(void)
 
 	for (base = 1; base <= 100; base++)
 	{
-		if (base % 3 == 0)
+		if (base % 3 == 0 && base % 5 == 0)
 		{
-			putchar('F');
-			putchar('i');
-			putchar('z');
-			putchar('z');
-			putchar(' ');
+			printf("FizzBuzz ");
+		}
+		else if (base % 3 == 0)
+		{
+			printf("Fizz ");
 		}
 		else if (base % 5 == 0)
 		{
 			printf("Buzz ");
-		}
-		if (base % 3 == 0 && base % 5 == 0)
-		{
-			printf("FizzBuzz ");
 		}
 		else
 		{
