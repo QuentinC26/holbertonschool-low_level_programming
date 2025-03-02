@@ -9,5 +9,6 @@ void print_numbers(void); /**Function for prints the number from 0 at 9*/
 void print_most_numbers(void); /**Function for prints the number without 2 and 4*/
 void more_numbers(void); /**Function for prints 10 times number from 0 at 14*/
 void print_line(int n); /** function that draws a straight line*/
+void print_diagonal(int n); /** Function that draws a diagonal line*/
 
 #endif /* MAIN_H */
