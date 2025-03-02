@@ -26,6 +26,10 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
+		if (base == 100)
+		{
+			printf(" ");
+		}
 		else
 		{
 			printf("%d ", base);
