@@ -30,7 +30,7 @@ int main(void)
 			putchar('z');
 			putchar(' ');
 		}
-		else if (base % 3 == 0 && base % 5 == 0)
+		if (base % 3 == 0 && base % 5 == 0)
 		{
 			putchar('F');
 			putchar('i');
