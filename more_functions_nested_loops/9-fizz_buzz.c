@@ -3,7 +3,6 @@
 
 /**
  * main - Function for realize Fizz Buzz
- * @???: ???
  * Return: 0 (Sucess)
  */
 
@@ -30,6 +29,11 @@ int main(void)
 		{
 			printf("%d ", base);
 		}
+		if (base == 100)
+		{
+			printf(" ");
+		}
 	}
+	putchar ('\n');
 	return (0);
 }
