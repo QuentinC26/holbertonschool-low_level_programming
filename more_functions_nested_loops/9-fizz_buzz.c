@@ -36,6 +36,11 @@ int main(void)
 			putchar('i');
 			putchar('z');
 			putchar('z');
+			putchar(' ');
+			putchar('F');
+                        putchar('i');
+                        putchar('z');
+                        putchar('z');
 			putchar('B');
 			putchar('u');
 			putchar('z');
