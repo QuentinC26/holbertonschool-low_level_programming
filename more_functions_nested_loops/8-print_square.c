@@ -10,25 +10,20 @@ void print_square(int size)
 {
 	int horizontal;
 	int vertical;
-	int c;
 
-	for (horizontal = 0; horizontal <= 9; horizontal++)
+	if (size <= 0)
 	{
-		for (vertical = 0; vertical <= 9; vertical++)
+		_putchar('\n');
+	}
+	else
+	{
+		for (horizontal = 0; horizontal < size; horizontal++)
 		{
-			c = horizontal * vertical;
-			if (size <= 0)
+			for (vertical = 0; vertical < size; vertical++)
 			{
-				_putchar('\n');
+				_putchar('#');
 			}
-			else
-			{
-				for (c = 0; c < size; c++)
-				{
-					_putchar('#');
-				}
-				_putchar('\n');
-			}
+		_putchar('\n');
 		}
 	}
 }
