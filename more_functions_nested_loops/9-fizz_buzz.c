@@ -15,21 +15,21 @@ int main(void)
 	{
 		if (base % 3 == 0 && base % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (base % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (base % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", base);
+			printf("%d", base);
 		}
-		if (base == 100)
+		if (base != 100)
 		{
 			printf(" ");
 		}
