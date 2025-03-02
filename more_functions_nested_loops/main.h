@@ -11,5 +11,7 @@ void more_numbers(void); /**Function for prints 10 times number from 0 at 14*/
 void print_line(int n); /** Function that draws a straight line*/
 void print_diagonal(int n); /** Function that draws a diagonal line*/
 void print_square(int size); /** Function that prints a square*/
+???; /** Function for Fizz Buzz*/
+void print_triangle(int size); /** Function that prints a triangle*/
 
 #endif /* MAIN_H */
