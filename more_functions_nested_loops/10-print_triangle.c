@@ -13,21 +13,20 @@ void print_triangle(int size)
 	int vertical;
 	int reverse;
 
-	for (horizontal = 0; horizontal <= size; horizontal++)
+	for (horizontal = 1; horizontal <= size; horizontal++)
 	{
-		for (vertical = 0; vertical <= horizontal; vertical++)
-		{
-			_putchar('#');
-		}
-		for (reverse = 0; reverse <= horizontal; reverse++)
+		for (vertical = 0; vertical < size - horizontal; vertical++)
 		{
 			_putchar(' ');
 		}
-		_putchar('#');
+		for (reverse = 0; reverse < horizontal; reverse++)
+		{
+			_putchar('#');
+		}
 		_putchar('\n');
 	}
 	if (size <= 0)
 	{
-		_putchar (' ');
+		_putchar ('\n');
 	}
 }
