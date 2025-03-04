@@ -10,15 +10,17 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-	int str = 0;
+	int count = 0;
 
-	for (; *s != 0; s++)
+	for (; *s < '\0'; s++)
 	{
-		str++;
-	}
-	if (*accept == *s)
-	{
-		return (*s);
+		for (; *accept < '\0'; accept++)
+		{
+			if (s == accept)
+			{
+				count++;
+			}
+		}
 	}
 	return (*s);
 }
