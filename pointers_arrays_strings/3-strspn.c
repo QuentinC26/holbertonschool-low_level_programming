@@ -16,13 +16,13 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (; *accept < '\0'; accept++)
 		{
-			if (s == accept)
+			if (*s == *accept)
 			{
 				count++;
 			}
 			if (*s != *accept)
 			{
-				????
+				s = '\0';
 			}
 		}
 	}
