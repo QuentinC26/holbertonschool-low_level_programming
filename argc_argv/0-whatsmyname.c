@@ -3,18 +3,15 @@
 
 /**
  * main - Principal function of this code
- * @argc: Variable integer for count the arguments number
+ * @unused_argc: Variable not used
  * @argv: Array for the pointers of characters who listed all arguments
  * Return: 0 (Success)
  */
 
 int main(int argc, char **argv)
 {
-	int count;
+	argc = argc;
 
-	for (count = 0; count < argc; count++)
-	{
-		printf("%s\n", argv[count]);
-	}
+	printf("%s\n", argv[0]);
 	return (0);
 }
