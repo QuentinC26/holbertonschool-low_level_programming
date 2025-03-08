@@ -11,9 +11,9 @@
 
 int main(int argc, char **argv)
 {
-	int multiplie = multiplie;
-	int number_one = number_one;
-	int number_two = number_two;
+	int multiplie = 0;
+	int number_one = 0;
+	int number_two = 0;
 
 	if (argc < 2)
 	{
