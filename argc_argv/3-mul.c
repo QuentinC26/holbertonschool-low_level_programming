@@ -7,7 +7,7 @@
  * @argc: Function for count the arguments in the code
  * @argv: Function for place the arguments in array
  * Return: 0 (Success)
- */
+*/
 
 int main(int argc, char **argv)
 {
@@ -15,12 +15,12 @@ int main(int argc, char **argv)
 	int number_one = 0;
 	int number_two = 0;
 
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	if (argc >= 2)
+	if (argc >= 3)
 	{
 		number_one = atoi(argv[1]);
 		number_two = atoi(argv[2]);
