@@ -26,7 +26,6 @@ int main(int argc, char **argv)
 		number_two = atoi(argv[2]);
 		multiplie = number_one * number_two;
 		printf("%d\n", multiplie);
-		return (0);
 	}
 	return (0);
 }
