@@ -28,5 +28,5 @@ int main(int argc, char **argv)
 		printf("%d\n", multiplie);
 		return (0);
 	}
-	return (multiplie);
+	return (0);
 }
