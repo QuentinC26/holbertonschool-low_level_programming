@@ -9,6 +9,7 @@ void _puts(char *str); /**function for that prints a string*/
 void print_rev(char *s); /**function for that prints a reverse string*/
 void rev_string(char *s); /**function for reverse the strings*/
 void puts2(char *str); /**function for prints every other character of string*/
+void puts_half(char *str); /**function that prints half of a string */
 char *_memset(char *s, char b, unsigned int n); /**function for fills the bytes on the memory*/
 char *_memcpy(char *dest, char *src, unsigned int n); /**Function for copy memory area*/
 char *_strchr(char *s, char c); /**Function for locates a character in a string*/
