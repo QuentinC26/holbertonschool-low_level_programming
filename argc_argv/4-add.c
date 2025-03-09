@@ -15,14 +15,14 @@ int main(int argc, char **argv)
 	int number_one = 0;
 	int number_two = 0;
 
+	if (argc == 1)
+	{
+		printf("0\n");
+	}
 	if (argc > 9)
 	{
 		printf("Error\n");
 		return (1);
-	}
-	if (argc == 1)
-	{
-		printf("0\n");
 	}
 	if (argc > 1)
 	{
