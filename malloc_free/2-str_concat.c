@@ -17,14 +17,14 @@ char *str_concat(char *s1, char *s2)
 	int count;
 	int count_two;
 
-	if (s1 == NULL)
+	if (s1 != NULL)
 	{
 		while (s1[length])
 		{
 		length++;
 		}
 	}
-	if (s2 == NULL)
+	if (s2 != NULL)
 	{
 		while (s2[length_two])
 		{
