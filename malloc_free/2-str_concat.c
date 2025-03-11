@@ -38,11 +38,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (count = 0; s1[count] != '\0'; count++)
+	for (count = 0; count < length != '\0'; count++)
 	{
 		Memory[count] = s1[count];
 	}
-	for (count_two = 0; s2[count_two] != '\0'; count_two++)
+	for (count_two = 0; count_two < length_two != '\0'; count_two++)
 	{
 		Memory[count + count_two] = s2[count_two];
 	}
