@@ -13,11 +13,6 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	char *memory;
-	char *second_memory;
-
-	memory = malloc(sizeof(char) * *name + 1);
-	second_memory = malloc(sizeof(char) * *owner + 1);
 	if (d == NULL)
 	{
 		return;
@@ -30,6 +25,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
-	free(memory);
-	free(second_memory);
 }
