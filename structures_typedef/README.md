@@ -1,0 +1,5 @@
+The documentation for this project :
+
+Structures : https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250311%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250311T210746Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=36f15bfc48e300c4e6c3a54662a5e3591e85c1d2c7de75131667cfb84269af05
+
+Typedef :https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2021/1/c8ff3e6f7202be7fa489a584e41d005504a07c23.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250311%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250311T210920Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c1845cab0b9fd68c6bc5a3703d007eca0f8420ecdab9bb606db93f7785b4b588
