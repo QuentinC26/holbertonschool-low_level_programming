@@ -17,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		len++;
 	}
-	for (count = 0; count < n - 1; count++)
+	for (count = 0; count < n; count++)
 	{
 		if (count < len)
 		{
