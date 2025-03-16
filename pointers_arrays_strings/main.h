@@ -14,6 +14,7 @@ void print_array(int *a, int n); /**function that prints n elements of an array 
 char *_strcpy(char *dest, char *src); /**function that copies the string*/
 int _atoi(char *s); /**function for convert a string to an integer*/
 char *_strcat(char *dest, char *src); /**function for concatenates two strings*/
+char *_strncat(char *dest, char *src, int n); /**function for concatenates two strings*/
 char *_memset(char *s, char b, unsigned int n); /**function for fills the bytes on the memory*/
 char *_memcpy(char *dest, char *src, unsigned int n); /**Function for copy memory area*/
 char *_strchr(char *s, char c); /**Function for locates a character in a string*/
