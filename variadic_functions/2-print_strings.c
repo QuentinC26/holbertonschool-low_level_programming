@@ -14,19 +14,21 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int list = 0;
+	char *memory;
 
 	va_start(args, n);
 	for (list = 0; list < n; list++)
 	{
-		if (list > 1 && va_arg(args, char*) == NULL && separator == NULL)
-		{
-		printf("nil");
-		}
+		memory = va_arg(args, char*);
 		if (list > 0 && separator != NULL)
 		{
 			printf("%s", separator);
 		}
-		printf("%s", va_arg(args, char*));
+		if (memory == 0)
+		{
+			printf("nil");
+		}
+		printf("%s", memory);
 	}
 	va_end(args);
 	printf("\n");
