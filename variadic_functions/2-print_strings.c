@@ -17,16 +17,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *memory;
 
 	va_start(args, n);
+	if (n == 0)
+	{
+		return;
+	}
 	for (list = 0; list < n; list++)
 	{
 		memory = va_arg(args, char*);
 		if (list > 0 && separator != NULL)
 		{
 			printf("%s", separator);
-		}
-		if (n == 0)
-		{
-			return;
 		}
 		if (memory == NULL)
 		{
