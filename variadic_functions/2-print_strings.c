@@ -17,10 +17,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *memory;
 
 	va_start(args, n);
-	if (n == 0)
-	{
-		return;
-	}
 	for (list = 0; list < n; list++)
 	{
 		memory = va_arg(args, char*);
@@ -36,6 +32,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 		printf("%s", memory);
 		}
+	}
+	if (n == 0)
+	{
+		return;
 	}
 	va_end(args);
 	printf("\n");
