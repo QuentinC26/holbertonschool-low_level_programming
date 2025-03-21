@@ -31,11 +31,12 @@ void print_all(const char *const format, ...)
 				printf("%c", va_arg(args, int));
 				break;
 			case 's':
+				s = va_arg(args, char *);
 				if (!s)
 				{
 					s = "(nil)";
 				}
-				printf("%s", va_arg(args, char *));
+				printf("%s", s);
 				break;
 			default:
 				count++;
