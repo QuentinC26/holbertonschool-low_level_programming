@@ -17,6 +17,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *memory;
 
 	va_start(args, n);
+	if (n == 0)
+	{
+		printf("\n");
+	}
 	for (list = 0; list < n; list++)
 	{
 		memory = va_arg(args, char*);
