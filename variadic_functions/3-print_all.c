@@ -34,8 +34,8 @@ void print_all(const char *const format, ...)
 				if (!s)
 				{
 					s = "(nil)";
-					printf("%s", va_arg(args, char *));
 				}
+				printf("%s", va_arg(args, char *));
 				break;
 			default:
 				count++;
