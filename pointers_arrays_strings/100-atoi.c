@@ -11,7 +11,7 @@ int _atoi(char *s)
 
 	int count;
 	int len = 0;
-	int result;
+	int result = 0;
 	int sign = 0;
 
 	sign = sign;
@@ -25,10 +25,6 @@ int _atoi(char *s)
 	}
 	for (count = 0; count < len; count++)
 	{
-		if (s[count] >= 'a' && s[count] <= 'z' && s[count] >= 'A' && s[count] <= 'Z')
-		{
-			s[count] = ' ';
-		}
 		if (s[count] == '+')
 		{
 			sign = 1;
@@ -37,14 +33,9 @@ int _atoi(char *s)
 		{
 			sign = -1;
 		}
-		if (s[count] >= 10)
-		{
-			result = result * 10 + (s[count] - '0');
-		}
 		if (s[count] >= '0' && s[count] <= '9')
 		{
 			result = result * 10 + (s[count] - '0');
-			return (0);
 		}
 	}
 	return (result);
