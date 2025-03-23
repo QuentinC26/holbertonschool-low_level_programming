@@ -18,6 +18,7 @@ char *_strncat(char *dest, char *src, int n); /*function for concatenates two st
 char *_strncpy(char *dest, char *src, int n); /*function for copies a string */
 int _strcmp(char *s1, char *s2); /*function for compare two strings */
 void reverse_array(int *a, int n); /*function for  reverses the content of an array of integers*/
+char *string_toupper(char *); /**function for  changes all lowercase letters of a string to uppercase*/
 char *_memset(char *s, char b, unsigned int n); /*function for fills the bytes on the memory*/
 char *_memcpy(char *dest, char *src, unsigned int n); /*Function for copy memory area*/
 char *_strchr(char *s, char c); /*Function for locates a character in a string*/
