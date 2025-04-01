@@ -4,6 +4,23 @@
 #include <string.h>
 
 /**
+ *_strlen - function for copie the strlen command
+ *@string: the string where you want to retrieve its width
+ *Return: 0 (Success)
+ */
+
+int _strlen(const char *string)
+{
+	int count = 0;
+
+	while (string[count] != '\0')
+	{
+		count++;
+	}
+	return (count);
+}
+
+/**
  *add_node_end - function that adds a new node at the end of the list_t
  *@head: the header of the linked list
  *@str: the string where you want to retrieve its width
