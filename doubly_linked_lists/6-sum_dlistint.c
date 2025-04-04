@@ -6,7 +6,6 @@
 /**
  *sum_dlistint - function that returns the nth node of a dlistint_t
  *@head: the header of the node
- *@index: item to be retrieved from the list
  *Return: 1 (Error)
  */
 
