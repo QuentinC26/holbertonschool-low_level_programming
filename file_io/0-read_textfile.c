@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	f_d = open(filename, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR | S_IROTH);
+	f_d = open(filename, O_RDONLY | O_CREAT, S_IRUSR | S_IWUSR | S_IROTH);
 	if (f_d == -1)
 	{
 		return (0);
